@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1660762800 "/home/beyonder/EE3900/Assignment_1/main_assign.tex" "main_assign.pdf" "main_assign" 1660762800
+["pdflatex"] 1661402523 "/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex" "main_assign.pdf" "main_assign" 1661402523
   "/etc/texmf/web2c/texmf.cnf" 1660130746 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/beyonder/EE3900/Assignment_1/main_assign.tex" 1660762799 64581 36bc323d5616ab297eaf3292a3a35302 ""
+  "/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex" 1661402517 22496 ad9f25e3e8ef1513ef10b999269c6d1c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -149,16 +149,18 @@
   "codes/3_2.py" 1660759574 765 7c051de98dac11746b67b6cfa5b4331e ""
   "codes/3_3.c" 1660200831 704 05c143cf86437c04e83002b80d88eb16 ""
   "codes/3_3.py" 1659965490 373 a80417236cf2c0fb4392849461e02fcb ""
-  "figs/4_5" 0 -1 0 ""
+  "codes/4_6.py" 1661144098 413 e6995cb82fbe95e0f77e6a2071d33489 ""
   "figs/5_2" 0 -1 0 ""
   "figs/5_4" 0 -1 0 ""
   "figs/6_3" 0 -1 0 ""
   "figs/ynconv" 0 -1 0 ""
   "figures/Figure_3_1.png" 1660195784 12790 6071e28b7ae3abc59be6dd9c79b90acc ""
   "figures/Figure_3_2.png" 1660760335 20705 c6efd29b601cd6731c38d22ee0285b5d ""
-  "main_assign.aux" 1660762800 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "figures/Figure_3_3.png" 1659965492 20753 ef2054b26fbc89a5210300f4a233ef68 ""
+  "figures/Figure_4_6.png" 1661144272 39932 5bfb14b16f5c9d819da1aedc62562c6a ""
+  "main_assign.aux" 1661402523 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "main_assign.out" 0 -1 0 "pdflatex"
-  "main_assign.tex" 1660762799 64581 36bc323d5616ab297eaf3292a3a35302 ""
+  "main_assign.tex" 1661402517 22496 ad9f25e3e8ef1513ef10b999269c6d1c ""
   (generated)
   "main_assign.aux"
   "main_assign.log"
