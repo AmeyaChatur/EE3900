@@ -4,6 +4,7 @@
 \usepackage{gensymb}
 \usepackage{xcolor}
 \usepackage{caption}
+\usepackage{polynom}
 %\usepackage{subcaption}
 %\doublespacing
 \singlespacing
@@ -257,6 +258,7 @@ The output of the python script in Problem \ref{prob:output} is the audio file S
 \section{Difference Equation}
 \begin{enumerate}[label=\thesection.\arabic*,ref=\thesection.\theenumi]
 \item Let
+ \label{def:xn}
 \begin{equation}
 x(n) = \cbrak{\underset{\uparrow}{1},2,3,4,2,1}
 \end{equation}
@@ -294,7 +296,7 @@ The following Python code sketches $x(n)$ and $y(n)$
 \item The $Z$-transform of $x(n)$ is defined as
 %
 \begin{equation}
-\label{eq:z_trans}
+\label{z_trans}
 X(z)={\mathcal {Z}}\{x(n)\}=\sum _{n=-\infty }^{\infty }x(n)z^{-n}
 \end{equation}
 %
@@ -319,7 +321,7 @@ resulting in \eqref{eq:shift1}. Similarly, it can be shown that
 \label{eq:z_trans_shift}
 	{\mathcal {Z}}\{x(n-k)\} = z^{-k}X(z)
 \end{equation}
-\item Obtain $X(z)$ for $x(n)$ defined in problem  $\eqref{X(n)}$.
+\item Obtain $X(z)$ for $x(n)$ defined in problem  \ref{def:xn}.
 \solution
 \begin{align}
 Z(x(n))&=\sum_{n=-\infty}^{\infty}x(n)z^{-n}\\
@@ -419,7 +421,7 @@ It is bounded between (0, 4) with period of $2\pi$
 						  &= \frac{\abs{4\cos\brak{\omega}}\abs{\cos\brak{\omega} + j\sin\brak{\omega}}}{\abs{2\cos\brak{\omega} + 1 + 2j\sin\brak{\omega}}}\\
 	  \therefore \abs{H\brak{e^{j \omega}}} &= \frac{\abs{4\cos\brak{\omega}}}{\sqrt{5 +4\cos\brak{\omega}}}
 \end{align}
-The following code plots Fig. \ref{fig:dtft}.
+The following code plots $\abs{H\brak{e^{j \omega}}}$
 \lstinputlisting{codes/4_6.py}
 \begin{figure}[!ht]
 	\centering
@@ -456,6 +458,37 @@ find
 		\end{align}
 		for H(z) in 
 		\eqref{eq:freq_resp}.
+		\\\solution\\
+		\begin{equation}
+			H(z) = \frac{1 + z^{-2}}{1 + \frac{1}{2} z^{-1}}
+		\end{equation}
+		Let $z^{-1} = x$,then, by polynomial long division we get
+		
+		\polylongdiv{1+x^2}{1+\frac12 x}
+	\begin{align}
+		\implies (1+z^{-2})= (\frac{1}{2} z^{-1}+1)(2z^{-1}-4) + 5
+		\\\implies \frac{(1+z^{-2})}{\frac{1}{2} z^{-1}+1}= (2z^{-1}-4) + \frac{5}{\frac{1}{2} z^{-1}+1}
+		\\\implies H\brak{z}=(2z^{-1}-4) + \frac{5}{\frac{1}{2} z^{-1}+1}
+	\end{align}
+	Now, consider$ \frac{5}{\frac{1}{2} z^{-1}+1}$
+	\\The denominator $\frac{1}{2} z^{-1}+1$ can be expressed as sum of an infinite geometric progression, which as its first term equal to 1 and common ratio $\frac{-1}{2}z^{-1}$
+	\\Therefore, we can write $ \frac{5}{\frac{1}{2} z^{-1}+1}$ as 5\brak{1+\brak{\frac{-1}{2}z^{-1}}+\brak{\frac{-1}{2}z^{-1}}^{2}+\brak{\frac{-1}{2}z^{-1}}^{3}+\brak{\frac{-1}{2}z^{-1}}^{4}+\dots}	
+	\\Therefore, H(z) can be given by,
+	\\\begin{equation}
+		H(z)= (2z^{-1}-4) + \frac{5}{\frac{1}{2} z^{-1}+1}
+	\end{equation}
+	\begin{align}
+		\\= 2z^{-1} - 4 + 5 + \frac{-5}{2}z^{-1} + \frac{5}{4}z^{-2} + \frac{-5}{8}z^{-3} + \frac{5}{16}z^{-4} + \dots
+		\\\implies H(z)= 1z^{0} + \frac{-1}{2}z^{-1} +\frac{5}{4}z^{-2} + \frac{-5}{8}z^{-3} +\frac{5}{16}z^{-4} +\dots
+	\end{align}
+	Comparing the above expression to \eqref{eq:z_trans} we get h(n) for n$<$5 as, \\
+	\begin{align} 
+		h(0) &= 1
+		\\h(1) &= \frac{-1}{2}
+		\\h(2) &= \frac{5}{4}
+		\\h(3) &= \frac{-5}{8}
+		\\h(4) &= \frac{5}{16}
+	\end{align}
 \item \label{prob:impulse_resp}
 Find an expression for $h(n)$ using $H(z)$, given that 
 %in Problem \ref{eq:ztransab} and \eqref{eq:anun}, given that
@@ -473,11 +506,61 @@ H(z) &= \frac{1}{1 + \frac{1}{2}z^{-1}} + \frac{ z^{-2}}{1 + \frac{1}{2}z^{-1}}
 \implies h(n) &= \brak{-\frac{1}{2}}^{n}u(n) + \brak{-\frac{1}{2}}^{n-2}u(n-2)
 \end{align}
 using \eqref{eq:anun} and \eqref{eq:z_trans_shift}.
-\item Sketch $h(n)$. Is it bounded? Convergent? 
+\item Sketch $h(n)$. Is it bounded? Justify theoritically.
 \\
-\solution Yes, it is bounded between and convergent. We can clearly see in the plot it is not tending to infinite and remain finite.
+\solution The following code plots Fig. \ref{fig:xnyn}.
+% \lstinputlisting{/home/saqib/iith/courseWork/sem5/EE3900/filter/codes/5_3.py}
+\begin{figure}[!ht]
+	\begin{center}
+	\includegraphics[width=\columnwidth]{/home/saqib/iith/courseWork/sem5/EE3900/filter/figs/5_3.png}
+	\end{center}
+	\captionof{figure}{}
+	\label{fig:xnyn}	
+\end{figure}
+From \eqref{eq:hn_exp} we know that\\
+\begin{equation}
+	h(n) = \brak{-\frac{1}{2}}^{n}u(n) + \brak{-\frac{1}{2}}^{n-2}u(n-2)
+\end{equation}
+Implies we can write that\\
+\begin{align}
+	h\brak{n} &= \begin{cases}
+					 0 &, n < 0\\
+					 \brak{\frac{-1}{2}}^n &, 0\leq n<2\\
+					 5\brak{\frac{-1}{2}}^n &, n \geq 2
+				  \end{cases}\label{eq:hn_theoritical_def}
+\end{align}
+A sequence is said to be bounded when 
+\begin{align}
+	\abs{x_n} \leq M , \forall n \in \mathcal{N}\label{def:bounded_seq_def}
+\end{align}  
+Now consider \eqref{eq:hn_theoritical_def},\\
+For n$<$0,
+\begin{equation}
+	\abs{h\brak{n}} \leq 0
+\end{equation}
+For $0 \leq n <$ 2,
+\begin{align}
+	\abs{h\brak{n}} = (\frac{1}{2})^n\\
+	\implies \abs{h\brak{n}} \leq 1
+\end{align}
+For $n\geq 2$,
+\begin{align}
+	\abs{h\brak{n}} = 5(\frac{1}{2})^n\\
+	\implies \abs{h\brak{n}} \leq 5
+\end{align}
+From above we can say that,
+      \begin{align}
+        M &= max\cbrak{0,1,5} \\
+          &= 5\label{eq:hn_bounded_proof}
+      \end{align}
+Therefore since $M$ exists and is a real value, we can say that h\brak{n} is bounded.
+
+\item Convergent? Justify using the ratio test.
 \\
-We see that $h(n)$ is bounded. For large $n$, we see that 
+\solution 
+\\Yes, it is convergent. We can clearly see in the plot it is not tending to infinite and remain finite.
+\\
+For large $n$, we see that 
 \begin{align}
 	h(n) &= \brak{-\frac{1}{2}}^n + \brak{-\frac{1}{2}}^{n - 2} \\
 		 &= \brak{-\frac{1}{2}}^{n}\brak{4 + 1} = 5\brak{-\frac{1}{2}}^n \\
@@ -485,7 +568,7 @@ We see that $h(n)$ is bounded. For large $n$, we see that
 \end{align}
 and therefore, $\lim_{n \to \infty}\left|\frac{h(n + 1)}{h(n)}\right| = \frac{1}{2} < 1$. Hence, we see that $h(n)$ converges.
 \\
-The following code plots Fig. \ref{fig:hn}.
+The following code plots
 \begin{lstlisting}
 wget https://github.com/yashrajput22/EE3900-22/blob/master/codes/Section-5/5_2.py
 \end{lstlisting}
@@ -495,7 +578,7 @@ wget https://github.com/yashrajput22/EE3900-22/blob/master/codes/Section-5/5_2.p
 \caption{$h(n)$ as the inverse of $H(z)$}
 \label{fig:hn}
 \end{figure}
-%
+
 \item The system with $h(n)$ is defined to be stable if
 \begin{equation}
 \sum_{n=-\infty}^{\infty}h(n) < \infty
@@ -528,13 +611,13 @@ This is the definition of $h(n)$.
 \solution The following code plots Fig. \ref{fig:hndef}. Note that this is the same as Fig. 
 \ref{fig:hn}. 
 \begin{align}
-&= h(n) + \frac{1}{2}h(n-1) = \delta(n) + \delta(n-2)
+h(n) + \frac{1}{2}h(n-1) = \delta(n) + \delta(n-2)
 \\
-&= H(z) + \frac{1}{2}z^{-1}H(z) = 1+z^{-2}
+H(z) + \frac{1}{2}z^{-1}H(z) = 1+z^{-2}
 \\
-H(z) &= \frac{1}{1 + \frac{1}{2}z^{-1}} + \frac{ z^{-2}}{1 + \frac{1}{2}z^{-1}}
+H(z) = \frac{1}{1 + \frac{1}{2}z^{-1}} + \frac{ z^{-2}}{1 + \frac{1}{2}z^{-1}}
 \\
-h(n) &= \brak{-\frac{1}{2}}^{n}u(n) + \brak{-\frac{1}{2}}^{n-2}u(n-2)
+h(n) = \brak{-\frac{1}{2}}^{n}u(n) + \brak{-\frac{1}{2}}^{n-2}u(n-2)
 \end{align}
 %
 \begin{lstlisting}
@@ -565,7 +648,17 @@ $y(n)$ in  Fig.
 \begin{lstlisting}
 wget https://github.com/yashrajput22/EE3900-22/blob/master/codes/Section-5/5_5.py
 \end{lstlisting}
-We use Toeplitz matrices for convolution
+We know that from, \eqref{eq:convolution},
+\begin{equation}
+	y(n) = x(n)*h(n) = \sum_{k=-\infty}^{\infty}x(k)h(n-k)
+\end{equation}
+This can also be wrtten as a matrix-vector multiplication given by the expression,
+\begin{equation}
+	\label{eq:conv_matrix_vec_mult}
+	y = T\brak{h}*x
+\end{equation}
+In the equation \eqref{eq:conv_matrix_vec_mult}, $T\brak{h}$ is a Teoplitz matrix.
+\\ The equation \eqref{eq:conv_matrix_vec_mult} can be expanded as,
 \begin{align}
 	\mtx{y} &= \mtx{x} \circledast \mtx{h}\\
 	\mtx{y} &= 
@@ -574,20 +667,17 @@ We use Toeplitz matrices for convolution
 		h_2 & h_1 & . & . & . & 0 \\
 		h_3 & h_2 & h_1 & . & . & 0 \\
 		. & . & . & . & . & . \\
-		0 & . & . & h_3 & h_2 & h_1 \\
-		0 & . & . & . & h_2 & h_1 \\
-		0 & . & . & . & 0 & h_1
+		h_{n-1} & h_{n-2} & h_{n-3} & . & . & 0\\
+		h_{n} & h_{n-1} & h_{n-2} & . & . & h_1\\
+		0 & h_{n} & h_{n-1} & h_{n-2} & . & h_2\\
+		. & . & . & . & . & . \\
+		0 & . & . & . & 0 & h_{n-1} \\
+		0 & . & . & . & 0 & h_n \\
 	\end{pmatrix}
 	\begin{pmatrix}
-		x_1 \\ x_2 \\ \vdots \\ x_n
+		x_1 \\ x_2 \\ .\\.\\. \\ x_n
 	\end{pmatrix}
 \end{align}
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=\columnwidth]{./figs/ynconv}
-\caption{$y(n)$ from the definition of convolution}
-\label{fig:ynconv}
-\end{figure}
 \item Show that
 \begin{equation}
 y(n) =  \sum_{n=-\infty}^{\infty}x(n-k)h(k)
@@ -609,10 +699,49 @@ Compute
 X(k) \define \sum _{n=0}^{N-1}x(n) e^{-\j2\pi kn/N}, \quad k = 0,1,\dots, N-1
 \end{equation}
 and $H(k)$ using $h(n)$.
+\\\solution\\
+From \ref{def:xn}, we know that ,
+\begin{equation}
+	x(n) = \cbrak{\underset{\uparrow}{1},2,3,4,2,1}
+\end{equation}
+%  Let, $e^{-j2\pi k} = \omega$. Then,
+% \begin{equation}
+% 	X(k) = \sum _{n=0}^{N-1}x(n) \omega^{n/N}
+% \end{equation}
+Here, let, $\omega=e^{-j2\pi k}$. Then,
+\begin{align}
+	X(k)=1+2\omega^{\frac{1}{5}}+3\omega^{\frac{2}{5}}+4\omega^{\frac{3}{5}}+2\omega^{\frac{4}{5}}+\omega
+	\label{eq:Xkdef}
+\end{align}
+Similarly, we know from \eqref{eq:hn_theoritical_def},
+\begin{align}
+	h\brak{n} &= \begin{cases}
+					 0 &, n < 0\\
+					 \brak{\frac{-1}{2}}^n &, 0\leq n<2\\
+					 5\brak{\frac{-1}{2}}^n &, n \geq 2
+				  \end{cases}
+\end{align}
+Now,again let, $\omega=e^{-j2\pi k}$. Then,
+\begin{align}
+	H(k)=1+\frac{-1}{2}\omega^{\frac{1}{5}}+\frac{5}{4}\omega^{\frac{2}{5}}+\frac{-5}{8}\omega^{\frac{3}{5}}+\frac{5}{16}\omega^{\frac{4}{5}}+\frac{-5}{32}\omega
+	\label{eq:Hkdef}
+\end{align}
 \item Compute 
 \begin{equation}
 Y(k) = X(k)H(k)
 \end{equation}
+\\\solution\\Now, from \eqref{eq:Xkdef} and \eqref{eq:Hkdef}, we know $X(k) and H(k)$. Now, given that,
+\begin{equation}
+	Y\brak{k}=X\brak{k}*H\brak{k}
+\end{equation}
+%\polyadd\PolynomX{1+2\omega^{\frac{1}{5}}+3\omega^{\frac{2}{5}}+4\omega^{\frac{3}{5}}+2\omega^{\frac{4}{5}}+\omega}{0}
+\begin{multline}
+	Y\brak{k}= (1+2\omega^{\frac{1}{5}}+3\omega^{\frac{2}{5}}+4\omega^{\frac{3}{5}}+2\omega^{\frac{4}{5}}+\omega)* \\(1+\frac{-1}{2}\omega^{\frac{1}{5}}+\frac{5}{4}\omega^{\frac{2}{5}}+\frac{-5}{8}\omega^{\frac{3}{5}}+\frac{5}{16}\omega^{\frac{4}{5}}+\frac{-5}{32}\omega)
+\end{multline}
+\begin{multline}
+	Y\brak{k}= 1+\frac{3}{2}\omega^{\frac{1}{5}}+\frac{13}{4}\omega^{\frac{2}{5}}+\frac{35}{8}\omega^{\frac{3}{5}}+\frac{45}{16}\omega^{\frac{4}{5}}\\\frac{115}{32}\omega^{\frac{5}{5}}+\frac{1}{8}\omega^{\frac{6}{5}}+\frac{25}{32}\omega^{\frac{7}{5}}-\frac{5}{8}\omega^{\frac{8}{5}}\\-\frac{5}{32}\omega^{5} 
+\end{multline}
+where, $\omega=e^{-j2k\pi}$
 \item Compute
 \begin{equation}
  y\brak{n}={\frac {1}{N}}\sum _{k=0}^{N-1}Y\brak{k}\cdot e^{\j 2\pi kn/N},\quad n = 0,1,\dots, N-1
@@ -621,18 +750,14 @@ Y(k) = X(k)H(k)
 \solution The following code plots Fig. \ref{fig:ynconv}. Note that this is the same as 
 $y(n)$ in  Fig. 
 \ref{fig:xnyn}. 
-%
-\begin{lstlisting}
-wget https://raw.githubusercontent.com/gadepall/EE1310/master/filter/codes/yndft.py
-\end{lstlisting}
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=\columnwidth]{./figs/6_3}
-\caption{$y(n)$ from the DFT}
-\label{fig:yndft}
-\end{figure}
+
 \item Repeat the previous exercise by computing $X(k), H(k)$ and $y(n)$ through FFT and 
 IFFT.
+\\
+\solution
+The following python codes compute $X(k), H(k)$ and $y(n)$ through FFT and 
+IFFT.
+\lstinputlisting{codes/6_4.py}
 \item Wherever possible, express all the above equations as matrix equations.
 \end{enumerate}
 %
@@ -669,18 +794,3 @@ Modifying the code with different input parameters and to get the best possible 
 %
 \end{enumerate}
 \end{document}
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-You have no unread notifications
