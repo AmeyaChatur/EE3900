@@ -509,14 +509,14 @@ using \eqref{eq:anun} and \eqref{eq:z_trans_shift}.
 \item Sketch $h(n)$. Is it bounded? Justify theoritically.
 \\
 \solution The following code plots Fig. \ref{fig:xnyn}.
-% \lstinputlisting{/home/saqib/iith/courseWork/sem5/EE3900/filter/codes/5_3.py}
-\begin{figure}[!ht]
-	\begin{center}
-	\includegraphics[width=\columnwidth]{/home/saqib/iith/courseWork/sem5/EE3900/filter/figs/5_3.png}
-	\end{center}
-	\captionof{figure}{}
-	\label{fig:xnyn}	
-\end{figure}
+\lstinputlisting{codes/5_3.py}
+% \begin{figure}[!ht]
+% 	\begin{center}
+\includegraphics[width=\columnwidth]{figures/Figure_5_3.png}
+% 	\end{center}
+% 	\captionof{figure}{}
+% 	\label{fig:xnyn}	
+% \end{figure}
 From \eqref{eq:hn_exp} we know that\\
 \begin{equation}
 	h(n) = \brak{-\frac{1}{2}}^{n}u(n) + \brak{-\frac{1}{2}}^{n-2}u(n-2)
@@ -599,6 +599,11 @@ h(n) &= \brak{-\frac{1}{2}}^{n}u(n) + \brak{-\frac{1}{2}}^{n-2}u(n-2)
 &= \frac{2}{3} + \frac{2}{3} < \infty 
 \end{align}
 %
+\item Verify the above result using a python code.
+\\\solution
+The following code computes and plots at each n. We can see that the sum converges to a constant value < \infty as n goes to \infty
+\lstinputlisting{codes/5_6.py}
+\includegraphics{figures/Figure_5_6_new.png}
 \item 
 Compute and sketch $h(n)$ using 
 \begin{equation}
