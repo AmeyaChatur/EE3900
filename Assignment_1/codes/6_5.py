@@ -22,3 +22,5 @@ un=(-1/2)**n
 hn1=np.pad(un,(0,2),'constant',constant_values=(0))
 hn2=np.pad(un,(2,0),'constant',constant_values=(0))
 hn=hn1+hn2
+plt.stem(hn)
+plt.show()

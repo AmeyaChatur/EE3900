@@ -3,4 +3,4 @@
 \contentsline {section}{\numberline {3}Difference Equation}{1}{section.3}%
 \contentsline {section}{\numberline {4}$Z$-transform}{3}{section.4}%
 \contentsline {section}{\numberline {5}Impulse Response}{5}{section.5}%
-\contentsline {section}{\numberline {6}Exercises}{8}{section.6}%
+\contentsline {section}{\numberline {6}DFT and FFT}{9}{section.6}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.10)  12 SEP 2022 09:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.10)  28 SEP 2022 11:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -512,7 +512,7 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 74.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 116.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -522,85 +522,85 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 ) (./main_assign.aux)
 \openout1 = `main_assign.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 74.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 74.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 116.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 116.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 74.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 74.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 116.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 116.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 74.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 74.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 116.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 116.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 74.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 74.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 116.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 116.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 116.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 74.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 116.
 
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 74.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 74.
+LaTeX Info: Redefining \celsius on input line 116.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 116.
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 74.
-Package gensymb Info: Using \Omega for \ohm on input line 74.
+LaTeX Info: Redefining \ohm on input line 116.
+Package gensymb Info: Using \Omega for \ohm on input line 116.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -641,7 +641,7 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \Gin@req@height=\dimen259
 \Gin@req@width=\dimen260
 )
-Package hyperref Info: Link coloring OFF on input line 74.
+Package hyperref Info: Link coloring OFF on input line 116.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -651,9 +651,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count327
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
 \@outlinefile=\write3
 \openout3 = `main_assign.out'.
 
@@ -668,68 +668,68 @@ LaTeX Info: Redefining \nameref on input line 74.
 \tf@toc=\write4
 \openout4 = `main_assign.toc'.
 
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 216.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 258.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 234.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 276.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 234.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 276.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 234.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 276.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 234.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 276.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 234.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 276.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 
-LaTeX Warning: Reference `prob:input' on page 1 undefined on input line 241.
+LaTeX Warning: Reference `prob:input' on page 1 undefined on input line 283.
 
 
-Underfull \hbox (badness 7777) in paragraph at lines 234--248
+Underfull \hbox (badness 7777) in paragraph at lines 276--290
 []\OT1/txr/m/n/12 You will find a spec-tro-gram at [][]$https :
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 234--248
+Underfull \hbox (badness 5374) in paragraph at lines 276--290
 \OT1/txr/m/n/12 / / academo . org / demos / spectrum-[]analyzer$[][]. Up-
  []
 
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 252.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 294.
 (./codes/2_3.py)
 
-LaTeX Warning: Reference `prob:output' on page 1 undefined on input line 254.
+LaTeX Warning: Reference `prob:output' on page 1 undefined on input line 296.
 
 
-LaTeX Warning: Reference `prob:spectrogram' on page 1 undefined on input line 254.
+LaTeX Warning: Reference `prob:spectrogram' on page 1 undefined on input line 296.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 []\OT1/txr/m/n/12 The out-put of the python script
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 \OT1/txr/m/n/12 in Prob-lem [] is the au-dio file
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 \OT1/txr/m/n/12 Sound[]With[]ReducedNoise.wav. Play
  []
 
 
-Underfull \hbox (badness 6927) in paragraph at lines 254--257
+Underfull \hbox (badness 6927) in paragraph at lines 296--299
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 The key strokes as well as
  []
 
@@ -740,15 +740,15 @@ Underfull \hbox (badness 6927) in paragraph at lines 254--257
 <figures/Figure_3_1.png, id=70, 461.8053pt x 346.1733pt>
 File: figures/Figure_3_1.png Graphic file (type png)
 <use figures/Figure_3_1.png>
-Package pdftex.def Info: figures/Figure_3_1.png  used on input line 270.
+Package pdftex.def Info: figures/Figure_3_1.png  used on input line 312.
 (pdftex.def)             Requested size: 252.0pt x 188.90103pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
+Underfull \hbox (badness 10000) in paragraph at lines 311--313
 []
  []
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 269--271
+Overfull \hbox (24.0pt too wide) in paragraph at lines 311--313
 [] 
  []
 
@@ -763,10 +763,10 @@ LaTeX Font Info:    Font shape `OML/txr/m/n' in size <12> not available
 <figures/Figure_3_2.png, id=72, 461.8053pt x 346.1733pt>
 File: figures/Figure_3_2.png Graphic file (type png)
 <use figures/Figure_3_2.png>
-Package pdftex.def Info: figures/Figure_3_2.png  used on input line 282.
+Package pdftex.def Info: figures/Figure_3_2.png  used on input line 324.
 (pdftex.def)             Requested size: 252.0pt x 188.90103pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 282--283
+Overfull \hbox (24.0pt too wide) in paragraph at lines 324--325
 [] 
  []
 
@@ -783,10 +783,10 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 <figures/Figure_3_3.png, id=143, 462.528pt x 346.896pt>
 File: figures/Figure_3_3.png Graphic file (type png)
 <use figures/Figure_3_3.png>
-Package pdftex.def Info: figures/Figure_3_3.png  used on input line 291.
+Package pdftex.def Info: figures/Figure_3_3.png  used on input line 333.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 291--292
+Overfull \hbox (24.0pt too wide) in paragraph at lines 333--334
 [] 
  []
 
@@ -796,62 +796,62 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 294.
+(hyperref)                removing `math shift' on input line 336.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 294.
+(hyperref)                removing `math shift' on input line 336.
 
 
-LaTeX Warning: Reference `eq:z_trans' on page 3 undefined on input line 312.
+LaTeX Warning: Reference `eq:z_trans' on page 3 undefined on input line 354.
 
 
-LaTeX Warning: Reference `eq:shift1' on page 3 undefined on input line 318.
+LaTeX Warning: Reference `eq:shift1' on page 3 undefined on input line 360.
 
 
-LaTeX Warning: Reference `def:xn' on page 3 undefined on input line 324.
+LaTeX Warning: Reference `def:xn' on page 3 undefined on input line 366.
 
 [3 <./figures/Figure_3_3.png>]
 
-LaTeX Warning: Reference `eq:iir_filter' on page 4 undefined on input line 338.
+LaTeX Warning: Reference `eq:iir_filter' on page 4 undefined on input line 380.
 
 
-LaTeX Warning: Reference `eq:z_trans_shift' on page 4 undefined on input line 342.
+LaTeX Warning: Reference `eq:z_trans_shift' on page 4 undefined on input line 384.
 
 
-LaTeX Warning: Reference `eq:iir_filter' on page 4 undefined on input line 342.
+LaTeX Warning: Reference `eq:iir_filter' on page 4 undefined on input line 384.
 
 
-LaTeX Warning: Reference `eq:unit_step' on page 4 undefined on input line 379.
+LaTeX Warning: Reference `eq:unit_step' on page 4 undefined on input line 421.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 407.
+LaTeX Warning: Command \j invalid in math mode on input line 449.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 407.
+LaTeX Warning: Command \j invalid in math mode on input line 449.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 409.
+LaTeX Warning: Command \j invalid in math mode on input line 451.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 409.
+LaTeX Warning: Command \j invalid in math mode on input line 451.
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 408--415
+Underfull \hbox (badness 6825) in paragraph at lines 450--457
 \OT1/txr/bx/n/12 Solution: \OT1/txr/m/n/12 The graph is sym-met-ric and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--415
+Underfull \hbox (badness 10000) in paragraph at lines 450--457
 
  []
 
 
-Overfull \hbox (3.6447pt too wide) detected at line 423
+Overfull \hbox (3.6447pt too wide) detected at line 465
 []
  []
 
@@ -862,20 +862,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <figures/Figure_4_6.png, id=239, 461.8053pt x 346.1733pt>
 File: figures/Figure_4_6.png Graphic file (type png)
 <use figures/Figure_4_6.png>
-Package pdftex.def Info: figures/Figure_4_6.png  used on input line 428.
+Package pdftex.def Info: figures/Figure_4_6.png  used on input line 470.
 (pdftex.def)             Requested size: 252.0pt x 188.90103pt.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 431.
+LaTeX Warning: Command \j invalid in math mode on input line 473.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 450.
+LaTeX Warning: Command \j invalid in math mode on input line 492.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 450.
+LaTeX Warning: Command \j invalid in math mode on input line 492.
 
 
-Overfull \hbox (16.3142pt too wide) detected at line 450
+Overfull \hbox (16.3142pt too wide) detected at line 492
 []
  []
 
@@ -884,10 +884,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `eq:freq_resp' on page 5 undefined on input line 460.
+LaTeX Warning: Reference `eq:freq_resp' on page 5 undefined on input line 502.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--462
+Underfull \hbox (badness 10000) in paragraph at lines 500--504
 
  []
 
@@ -895,30 +895,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 458--462
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./figures/Figure_4_6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 472--477
+Underfull \hbox (badness 10000) in paragraph at lines 514--519
 \OT1/txr/m/n/12 Therefore, we can write $[]$ as
  []
 
 
-Overfull \hbox (23.33395pt too wide) in paragraph at lines 472--477
+Overfull \hbox (23.33395pt too wide) in paragraph at lines 514--519
 \OT1/txr/m/n/12 5$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--477
+Underfull \hbox (badness 10000) in paragraph at lines 514--519
 
  []
 
 
-Overfull \hbox (40.8778pt too wide) detected at line 483
+Overfull \hbox (40.8778pt too wide) detected at line 525
 []
  []
 
 
-LaTeX Warning: Reference `eq:z_trans' on page 6 undefined on input line 484.
+LaTeX Warning: Reference `eq:z_trans' on page 6 undefined on input line 526.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--485
+Underfull \hbox (badness 10000) in paragraph at lines 525--527
 
  []
 
@@ -927,37 +927,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `eq:iir_filter' on page 6 undefined on input line 500.
+LaTeX Warning: Reference `eq:iir_filter' on page 6 undefined on input line 542.
 
 
-LaTeX Warning: Reference `eq:freq_resp' on page 6 undefined on input line 502.
+LaTeX Warning: Reference `eq:freq_resp' on page 6 undefined on input line 544.
 
 
-LaTeX Warning: Reference `eq:anun' on page 6 undefined on input line 508.
+LaTeX Warning: Reference `eq:anun' on page 6 undefined on input line 550.
 
 
-LaTeX Warning: Reference `eq:z_trans_shift' on page 6 undefined on input line 508.
+LaTeX Warning: Reference `eq:z_trans_shift' on page 6 undefined on input line 550.
 
 
-LaTeX Warning: Reference `fig:xnyn' on page 6 undefined on input line 511.
+LaTeX Warning: Reference `fig:xnyn' on page 6 undefined on input line 553.
 
 (./codes/5_3.py)
 <figures/Figure_5_3.png, id=278, 461.8053pt x 346.1733pt>
 File: figures/Figure_5_3.png Graphic file (type png)
 <use figures/Figure_5_3.png>
-Package pdftex.def Info: figures/Figure_5_3.png  used on input line 515.
+Package pdftex.def Info: figures/Figure_5_3.png  used on input line 557.
 (pdftex.def)             Requested size: 252.0pt x 188.90103pt.
 
 
-LaTeX Warning: Reference `eq:hn_exp' on page 6 undefined on input line 520.
+LaTeX Warning: Reference `eq:hn_exp' on page 6 undefined on input line 562.
 
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 515--521
+Overfull \hbox (24.0pt too wide) in paragraph at lines 557--563
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--521
+Underfull \hbox (badness 10000) in paragraph at lines 557--563
 
  []
 
@@ -965,147 +965,177 @@ Underfull \hbox (badness 10000) in paragraph at lines 515--521
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-Underfull \hbox (badness 10000) in paragraph at lines 523--525
+Underfull \hbox (badness 10000) in paragraph at lines 565--567
 
  []
 
 
-LaTeX Warning: Reference `eq:hn_theoritical_def' on page 7 undefined on input line 536.
+LaTeX Warning: Reference `eq:hn_theoritical_def' on page 7 undefined on input line 578.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 610--613
 
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex:577: LaTeX Error: File `./figs/5_2' not found.
+ []
+
+
+LaTeX Warning: Reference `eq:iir_filter' on page 7 undefined on input line 618.
+
+
+LaTeX Warning: Reference `eq:impulse_resp' on page 7 undefined on input line 618.
+
+(./codes/5_6.py
+Underfull \vbox (badness 3179) has occurred while \output is active []
+
+ [7 <./figures/Figure_5_3.png>])
+<figures/Figure_5_6_new.png, id=353, 461.8053pt x 346.1733pt>
+File: figures/Figure_5_6_new.png Graphic file (type png)
+<use figures/Figure_5_6_new.png>
+Package pdftex.def Info: figures/Figure_5_6_new.png  used on input line 638.
+(pdftex.def)             Requested size: 252.0pt x 188.90103pt.
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 638--640
+[] 
+ []
+
+
+LaTeX Warning: Reference `fig:hndef' on page 8 undefined on input line 648.
+
+
+LaTeX Warning: Reference `fig:hn' on page 8 undefined on input line 649.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ (./codes/5_3.py)
+File: figures/Figure_5_3.png Graphic file (type png)
+<use figures/Figure_5_3.png>
+Package pdftex.def Info: figures/Figure_5_3.png  used on input line 663.
+(pdftex.def)             Requested size: 252.0pt x 188.90103pt.
+
+
+LaTeX Warning: Reference `eq:convolution' on page 8 undefined on input line 675.
+
+[8 <./figures/Figure_5_6_new.png>] (./codes/5_6.py)
+<figures/Figure_5_6.png, id=403, 462.528pt x 346.896pt>
+File: figures/Figure_5_6.png Graphic file (type png)
+<use figures/Figure_5_6.png>
+Package pdftex.def Info: figures/Figure_5_6.png  used on input line 684.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+
+
+/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex:689: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.577 ...egraphics[width=\columnwidth]{./figs/5_2}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.689 \item
+            Express the above convolution using a Teoplitz matrix.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-LaTeX Warning: Reference `eq:iir_filter' on page 7 undefined on input line 586.
+LaTeX Warning: Reference `eq:convolution' on page 9 undefined on input line 691.
 
 
-LaTeX Warning: Reference `eq:impulse_resp' on page 7 undefined on input line 586.
-
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex:604: Missing $ inserted.
-<inserted text> 
-                $
-l.604 ...um converges to a constant value < \infty
-                                                   as n goes to \infty
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex:605: Missing $ inserted.
-<inserted text> 
-                $
-l.605 \lstinputlisting{codes/5_6.py}
-                                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex:605: Missing } inserted.
-<inserted text> 
-                }
-l.605 \lstinputlisting{codes/5_6.py}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex:605: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.605 \lstinputlisting{codes/5_6.py}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex:605: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.605 \lstinputlisting{codes/5_6.py}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex:605: Missing } inserted.
-<inserted text> 
-                }
-l.605 \lstinputlisting{codes/5_6.py}
-                                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex:605: Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.605 \lstinputlisting{codes/5_6.py}
-                                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex:605: Undefined control sequence.
-\lst@GetLineInterval ...r \lst@GLI \lst@linerange 
-                                                  \@nil 
-l.605 \lstinputlisting{codes/5_6.py}
-                                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Runaway argument?
- \end {equation} This is the definition of $h(n)$. \\ \solution The f\ETC.
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_1/main_assign.tex:758: Paragraph ended before \lst@GLI was complete.
-<to be read again> 
-                   \par 
-l.758 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+Underfull \vbox (badness 1838) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 759--765
-[]\OT1/txr/m/n/12 Repeat the pre-vi-ous ex-er-cise by com-put-ing
+
+LaTeX Warning: Reference `eq:conv_matrix_vec_mult' on page 9 undefined on input line 700.
+
+
+LaTeX Warning: Reference `eq:conv_matrix_vec_mult' on page 9 undefined on input line 701.
+
+
+LaTeX Warning: Reference `eq:convolution' on page 9 undefined on input line 726.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 739.
+
+
+LaTeX Warning: Reference `def:xn' on page 9 undefined on input line 743.
+
+
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+ [9 <./figures/Figure_5_6.png>]
+
+LaTeX Warning: Reference `eq:hn_theoritical_def' on page 10 undefined on input line 756.
+
+
+Overfull \hbox (16.10861pt too wide) detected at line 768
+[]
  []
 
-[7 <./figures/Figure_5_3.png>] (./codes/6_4.py)
 
-LaTeX Warning: Reference `prob:output' on page 8 undefined on input line 770.
+LaTeX Warning: Reference `eq:Xkdef' on page 10 undefined on input line 774.
+
+
+LaTeX Warning: Reference `eq:Hkdef' on page 10 undefined on input line 774.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--775
+\OT1/txr/m/n/12 Now, from [] and [], we know
+ []
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 788.
+
+
+LaTeX Warning: Reference `fig:ynconv' on page 10 undefined on input line 791.
+
+
+LaTeX Warning: Reference `fig:A1_3' on page 10 undefined on input line 793.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ (./codes/6_2.py)
+File: figures/Figure_5_6.png Graphic file (type png)
+<use figures/Figure_5_6.png>
+Package pdftex.def Info: figures/Figure_5_6.png  used on input line 799.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+ (./codes/6_4.py [10])
+<figures/Figure_6_4_X.png, id=503, 462.528pt x 346.896pt>
+File: figures/Figure_6_4_X.png Graphic file (type png)
+<use figures/Figure_6_4_X.png>
+Package pdftex.def Info: figures/Figure_6_4_X.png  used on input line 813.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+<figures/Figure_6_4_H.png, id=504, 462.528pt x 346.896pt>
+File: figures/Figure_6_4_H.png Graphic file (type png)
+<use figures/Figure_6_4_H.png>
+Package pdftex.def Info: figures/Figure_6_4_H.png  used on input line 819.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+<figures/Figure_6_4y.png, id=505, 462.528pt x 346.896pt>
+File: figures/Figure_6_4y.png Graphic file (type png)
+<use figures/Figure_6_4y.png>
+Package pdftex.def Info: figures/Figure_6_4y.png  used on input line 825.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+ [11 <./figures/Figure_6_4_X.png> <./figures/Figure_6_4_H.png>]
+
+LaTeX Warning: Reference `eq:inv-ft' on page 12 undefined on input line 856.
 
 
-LaTeX Warning: Reference `prob:output' on page 8 undefined on input line 777.
+LaTeX Warning: Reference `eq:fp' on page 12 undefined on input line 862.
 
-[8] (./main_assign.aux)
+
+LaTeX Warning: Reference `fig:yn-mtx' on page 12 undefined on input line 867.
+
+
+LaTeX Warning: Reference `fig:A1_3' on page 12 undefined on input line 868.
+
+(./codes/6_5_new.py)
+<figures/Figure_6_5_yn_DFFT.png, id=549, 461.8053pt x 346.1733pt>
+File: figures/Figure_6_5_yn_DFFT.png Graphic file (type png)
+<use figures/Figure_6_5_yn_DFFT.png>
+Package pdftex.def Info: figures/Figure_6_5_yn_DFFT.png  used on input line 873.
+(pdftex.def)             Requested size: 252.0pt x 188.90103pt.
+ [12 <./figures/Figure_6_4y.png> <./figures/Figure_6_5_yn_DFFT.png>] (./main_assign.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1119,21 +1149,21 @@ Package rerunfilecheck Warning: File `main_assign.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main_assign.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  675570CFE4A3830583A96E8AA2FCE969;720.
+(rerunfilecheck)             After:  66FC8CD0E0CBA4D9D2AE2DB3538B3FF5;736.
  ) 
 Here is how much of TeX's memory you used:
- 17075 strings out of 478287
- 266786 string characters out of 5849289
- 1040483 words of memory out of 5000000
- 34633 multiletter control sequences out of 15000+600000
- 534014 words of font info for 156 fonts, out of 8000000 for 9000
+ 17285 strings out of 478287
+ 270329 string characters out of 5849289
+ 1040470 words of memory out of 5000000
+ 34668 multiletter control sequences out of 15000+600000
+ 535364 words of font info for 158 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,16n,63p,370b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,63p,370b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main_assign.pdf (8 pages, 211309 bytes).
+Output written on main_assign.pdf (12 pages, 302277 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 481 compressed objects within 5 object streams
- 343 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 760 PDF objects out of 1000 (max. 8388607)
+ 691 compressed objects within 7 object streams
+ 511 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

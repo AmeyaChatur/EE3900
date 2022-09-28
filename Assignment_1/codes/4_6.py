@@ -20,7 +20,3 @@ plt.grid()# minor
 
 plt.show()
 
-
-
-
-
