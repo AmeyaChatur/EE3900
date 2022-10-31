@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.10)  19 OCT 2022 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.10)  31 OCT 2022 09:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -848,7 +848,11 @@ Package translations Info: No language package found. I am going to use `english
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 77.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-) (./main_assign.aux)
+) (./main_assign.aux
+
+LaTeX Warning: Label `fig:sckt-q2' multiply defined.
+
+)
 \openout1 = `main_assign.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 77.
@@ -978,6 +982,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 77.
 LaTeX Info: Redefining \pageref on input line 77.
 LaTeX Info: Redefining \nameref on input line 77.
+ (./main_assign.out) (./main_assign.out)
 \@outlinefile=\write4
 \openout4 = `main_assign.out'.
 
@@ -989,6 +994,7 @@ LaTeX Info: Redefining \nameref on input line 77.
 \c@example=\count367
 \c@definition=\count368
 \c@rem=\count369
+ (./main_assign.toc)
 \tf@toc=\write5
 \openout5 = `main_assign.toc'.
 
@@ -1012,141 +1018,72 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 18
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-
-LaTeX Warning: File `figs/ckt.jpg' not found on input line 212.
-
-
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_3/main_assign.tex:212: Package pdftex.def Error: File `figs/ckt.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.212 ...raphics[width=\columnwidth]{figs/ckt.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 212.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-)
+<figures/Figure_1_ckt.jpg, id=22, 1748.5325pt x 642.4pt>
+File: figures/Figure_1_ckt.jpg Graphic file (type jpg)
+<use figures/Figure_1_ckt.jpg>
+Package pdftex.def Info: figures/Figure_1_ckt.jpg  used on input line 212.
+(pdftex.def)             Requested size: 252.0pt x 92.58199pt.
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 229.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6204) has occurred while \output is active []
 
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
+ <./figures/Figure_1_ckt.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `eq:L-u' on page 2 undefined on input line 263.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 323.
+ (./codes/2_6.py
+LaTeX Font Info:    Trying to load font information for OML+txr on input line 5.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxr.fd
+File: omltxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OML/txr/m/n' in size <12> not available
+(Font)              Font shape `OML/txmi/m/it' tried instead on input line 5.
+LaTeX Font Info:    Trying to load font information for OMS+txr on input line 20.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 20.
+)
+<figures/Figure_2_ckt.png, id=61, 462.528pt x 346.896pt>
+File: figures/Figure_2_ckt.png Graphic file (type png)
+<use figures/Figure_2_ckt.png>
+Package pdftex.def Info: figures/Figure_2_ckt.png  used on input line 325.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+ [2 <./figures/Figure_2_ckt.png>] (./codes/2_7.cir)
+Underfull \vbox (badness 1466) has occurred while \output is active []
 
+ (./codes/3_4.py [3])
+<figures/Figure_3_ckt.png, id=155, 462.528pt x 346.896pt>
+File: figures/Figure_3_ckt.png Graphic file (type png)
+<use figures/Figure_3_ckt.png>
+Package pdftex.def Info: figures/Figure_3_ckt.png  used on input line 417.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
+ (./codes/3_5.cir) [4 <./figures/Figure_3_ckt.png>] (./main_assign.aux)
 
-LaTeX Warning: Reference `fig:ckt' on page 2 undefined on input line 273.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Reference `fig:ckt-q1' on page 2 undefined on input line 306.
-
-
-LaTeX Warning: Reference `eq:V-s' on page 2 undefined on input line 317.
-
-
-LaTeX Warning: File `figs/2_6.png' not found on input line 327.
-
-
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_3/main_assign.tex:327: Package pdftex.def Error: File `figs/2_6.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.327 ...raphics[width=\columnwidth]{figs/2_6.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `fig:v1-t' on page 2 undefined on input line 336.
-
-
-LaTeX Warning: Reference `fig:ckt' on page 2 undefined on input line 342.
-
-[2]
-
-LaTeX Warning: Reference `fig:sckt-q2' on page 3 undefined on input line 394.
-
-
-LaTeX Warning: Reference `eq:v2-s' on page 3 undefined on input line 402.
-
-
-LaTeX Warning: File `figs/3_4.png' not found on input line 422.
-
-
-/media/beyonder/DATA/Sem-5/EE3900/Assignment_3/main_assign.tex:422: Package pdftex.def Error: File `figs/3_4.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.422 ...raphics[width=\columnwidth]{figs/3_4.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `fig:v2-t' on page 3 undefined on input line 432.
-
-
-LaTeX Warning: Reference `eq:v2-t' on page 3 undefined on input line 439.
-
-[3]
-
-LaTeX Warning: Reference `eq:s1' on page 4 undefined on input line 478.
-
-
-LaTeX Warning: Reference `eq:s3' on page 4 undefined on input line 478.
-
-
-LaTeX Warning: Reference `fig:sckt-q2' on page 4 undefined on input line 478.
-
-[4
-
-] (./main_assign.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main_assign.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main_assign.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B3E3CCC68C338A65E874C98DFABADF2B;365.
+Package rerunfilecheck Info: File `main_assign.out' has not changed.
+(rerunfilecheck)             Checksum: B3E3CCC68C338A65E874C98DFABADF2B;365.
  ) 
 Here is how much of TeX's memory you used:
- 47965 strings out of 478287
- 1124909 string characters out of 5849289
- 1813505 words of memory out of 5000000
- 65466 multiletter control sequences out of 15000+600000
- 534028 words of font info for 156 fonts, out of 8000000 for 9000
+ 48030 strings out of 478287
+ 1125402 string characters out of 5849289
+ 1923505 words of memory out of 5000000
+ 65453 multiletter control sequences out of 15000+600000
+ 533990 words of font info for 156 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 100i,14n,104p,481b,1410s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main_assign.pdf (4 pages, 91620 bytes).
+ 100i,14n,104p,481b,2405s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main_assign.pdf (4 pages, 204703 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
- 78 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 146 named destinations out of 1000 (max. 500000)
+ 52 words of extra memory for PDF output out of 10000 (max. 10000000)
 

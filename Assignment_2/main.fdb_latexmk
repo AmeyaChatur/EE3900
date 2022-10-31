@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1665980978 "/media/beyonder/DATA/Sem-5/EE3900/Assignment_2/main.tex" "main.pdf" "main" 1665980978
+["pdflatex"] 1666159089 "/media/beyonder/DATA/Sem-5/EE3900/Assignment_2/main.tex" "main.pdf" "main" 1666159089
   "/etc/texmf/web2c/texmf.cnf" 1660130746 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/media/beyonder/DATA/Sem-5/EE3900/Assignment_2/main.tex" 1665980977 13753 b4f4c87e59b7818165db6395e255c32a ""
+  "/media/beyonder/DATA/Sem-5/EE3900/Assignment_2/main.tex" 1666159087 13754 df99874a682b66b897c8f43267fbccea ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -144,10 +144,10 @@
   "codes/2_5.py" 1665980706 201 6f03e058d8b274bd4351a96a8ebd74e5 ""
   "figures/Figure_2_2.png" 1665979301 14537 800cb8122699553436315d65de9bc73f ""
   "figures/Figure_2_5.png" 1665980738 15744 0699f67eaf46508f8c2d5e21e3566675 ""
-  "main.aux" 1665980978 2597 13f25dcf20664887cee537dac833957c "pdflatex"
-  "main.out" 1665980978 377 6ef0fda02ae42ab5eb9699af63378c50 "pdflatex"
-  "main.tex" 1665980977 13753 b4f4c87e59b7818165db6395e255c32a ""
-  "main.toc" 1665980978 214 d8b7ea01f6cb267aafd57c9bedbeced1 "pdflatex"
+  "main.aux" 1666159089 2597 13f25dcf20664887cee537dac833957c "pdflatex"
+  "main.out" 1666159089 377 6ef0fda02ae42ab5eb9699af63378c50 "pdflatex"
+  "main.tex" 1666159087 13754 df99874a682b66b897c8f43267fbccea ""
+  "main.toc" 1666159089 214 d8b7ea01f6cb267aafd57c9bedbeced1 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

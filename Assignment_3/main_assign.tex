@@ -156,7 +156,7 @@ columns=fullflexible
 Circuits and Transforms
 }
 
-\author{Samar Singhai\\BM20BTECH11012}
+\author{Ameya Chatur\\BM20BTECH11002}
 
 % make the title area
 \maketitle
@@ -209,12 +209,12 @@ u(t) =
 		$q_2 \, \mu C$.
 		\begin{figure}[!ht]
 			\centering
-			\includegraphics[width=\columnwidth]{figs/ckt.jpg}
+			\includegraphics[width=\columnwidth]{figures/Figure_1_ckt.jpg}
 			\caption{}
 			\label{fig:ckt}
 \end{figure}
 \item Find $q_1$.
-
+\\
 \solution The equivalent circuit at steady-state when the switch is at P is shown alongside.
 Assuming the circuit to be grounded at G and the relative potential at point
 X to be $V$, we use KCL at X and get
@@ -246,7 +246,7 @@ Hence,
 
 
 \item Show that the Laplace transform of $u(t)$ is $\frac{1}{s}$ and find the ROC.
-
+\\
 \solution We have,
 \begin{align}
     u(t) &\system{L} \int_{0}^{\infty}u(t)e^{-st}dt \\
@@ -320,20 +320,16 @@ Now, labelling points G and X as in Fig. \ref{fig:ckt-q1}, we use KCL at X.
     &= \frac{4}{3}\brak{1 - e^{-\brak{1.5 \times 10^6}t}}u(t)
 \end{align}
 The python code plots the graph below.
-\begin{lstlisting}
-    wget https://raw.githubusercontent.com/samar2605/EE3900/master/cktsig/codes/2_6.py
-\end{lstlisting}
+\lstinputlisting{codes/2_6.py}
 \begin{figure}[!htb]
-    \includegraphics[width=\columnwidth]{figs/2_6.png}
+    \includegraphics[width=\columnwidth]{figures/Figure_2_ckt.png}
     \caption{$v_{C_0}(t)$ before the switch is flipped}
     \label{fig:v1-t}
 \end{figure}
 \item Verify your result using ngspice.
 
-\solution The ngspice script 
-\begin{lstlisting}
-    wget https://raw.githubusercontent.com/samar2605/EE3900/master/cktsig/codes/2_7.cir
-\end{lstlisting}simulates the given circuit and the generated output is depicted in Fig. \eqref{fig:v1-t}
+\solution The ngspice script simulates the given circuit and the generated output is depicted in Fig. \eqref{fig:v1-t}
+\lstinputlisting{codes/2_7.cir}
 \end{enumerate}
 
  \section{Initial Conditions}
@@ -368,7 +364,7 @@ Since capacitor behaves as an open circuit, we use KCL at X.
 \end{align}                                         
 and hence, $q_2 = \SI[parse-numbers=false]{\frac{2}{3}}{\micro\coulomb}$.
 
-\item Draw the equivalent $s$-domain resistive circuit w	hen S is switched to position Q.  Use variables $R_1, R_2, C_0$ for the passive elements.
+\item Draw the equivalent $s$-domain resistive circuit when S is switched to position Q.  Use variables $R_1, R_2, C_0$ for the passive elements.
 	
 \begin{figure}[!htb]
     \begin{center}
@@ -389,6 +385,7 @@ and hence, $q_2 = \SI[parse-numbers=false]{\frac{2}{3}}{\micro\coulomb}$.
 \caption{}
 \label{fig:sckt-q2}
 \end{figure}
+
 \item $V_{C_0}(s)$ = ?  
 
 \solution Using KCL at node X in Fig. \ref{fig:sckt-q2}
@@ -415,20 +412,16 @@ Substituting values gives
     \label{eq:v2-t}
 \end{align}
 The Python code plots the graph below.
-\begin{lstlisting}
-    wget https://raw.githubusercontent.com/samar2605/EE3900/master/cktsig/codes/3_4.py
-\end{lstlisting}
+\lstinputlisting{codes/3_4.py}
 \begin{figure}[!htb]
-    \includegraphics[width=\columnwidth]{figs/3_4.png}
+    \includegraphics[width=\columnwidth]{figures/Figure_3_ckt.png}
     \caption{$v_{C_0}(t)$ after the switch is flipped}
     \label{fig:v2-t}
 \end{figure}
 \item Verify your result using ngspice.
 
 \solution The ngspice script
-\begin{lstlisting}
-    wget https://raw.githubusercontent.com/samar2605/EE3900/master/cktsig/codes/3_5.cir
-\end{lstlisting}
+\lstinputlisting{codes/3_5.cir}
 simulates the given circuit and the generated output is depicted in Fig. \eqref{fig:v2-t}.
 \item Find $v_{C_0}(0-), v_{C_0}(0+)$ and  $v_{C_0}(\infty) $. 
 
